@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+html {
+	background: #000 url(http://i.imgur.com/4Vs44ZW.jpg) no-repeat fixed center center;
+	background-size: cover;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 16px;
+	text-shadow: -1px -1px 15px #111;
+}
+h1 {
+  color: #eee;
+  font-weight:normal;
+  text-align: center;
+}
+.menu {
+    margin-top:20px;
+    width: 800px;
+    height: 80px;
+    margin-top:20px;
+    margin-left:auto;
+	margin-right:auto;
+}
+.container {
+    padding: 1em 3em;
+	width: 800px;
+	height: 600px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.6);
+	border-radius: 2px;
+	background: rgba(0,0,0,.5);
+}
+.tile {
+    width: 80px;
+	height: 80px;
+	text-align: center;
+	float: left;
+	outline: 7px solid rgba(255,255,255,0);
+	transition: outline .5s;
+    position: relative; /* outline */
+}
+
+.tile:hover {
+	outline-color: rgba(255,255,255,.4);
+	transition: outline .5s;
+    z-index: 3000 !important; /* outline */
+}
+
+.tile > a {
+	width: inherit;
+	height: inherit;
+	display: block;
+	color: #fff;
+	text-decoration: none !important;
+}
+.active {
+    outline-color: rgba(255,255,255,.4);
+	transition: outline .5s;
+    z-index: 3000 !important;
+}
+.blue { 
+    background-color: #00c0e4; 
+    margin-left:200px;
+}
+.mint { background-color: #2ecc71; }
+.purple { background-color: #7658f8; }
+
+.yellow { background-color: #eac14d; }
+.red { background-color: #e6567a; }
+.pink { background-color: #cb70d7; }
+
+.icon {
+	max-width:40px;
+    max-height:40px;
+    width:auto;
+    height:auto;
+    margin-top:20px;
+    
+}
+
+.title {
+	display: block;
+}
+
+* {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
