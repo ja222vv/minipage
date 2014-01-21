@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 
 html {
-	background: #000 url(http://i.imgur.com/4Vs44ZW.jpg) no-repeat fixed center center;
+	background: #000 url(pics/wallpaper.jpg) no-repeat fixed center center;
 	background-size: cover;
 }
 
@@ -10,6 +10,9 @@ body {
 	color: #fff;
 	font-size: 16px;
 	text-shadow: -1px -1px 15px #111;
+}
+img {
+    border:none;
 }
 h1 {
   color: #eee;
@@ -33,8 +36,10 @@ h1 {
 	margin-right:auto;
 	box-shadow: 0 0 10px rgba(0,0,0,.6);
 	border-radius: 2px;
+	border: 1px solid #000000;
 	border: 1px solid rgba(0,0,0,.3);
 	background: rgba(0,0,0,.5);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4c000000', endColorstr='#4c000000');
 }
 .tile {
     width: 80px;
@@ -42,27 +47,36 @@ h1 {
 	text-align: center;
 	float: left;
 	outline: 7px solid rgba(255,255,255,0);
-	transition: outline .5s;
+	-webkit-transition: outline .5s ease-out;
+    -moz-transition: outline .5s ease-out;
+    -ms-transition: outline .5s ease-out;
+    -o-transition: outline .5s ease-out;
+    transition: outline .5s ease-out;
     position: relative; /* outline */
 }
-
 .tile:hover {
 	outline-color: rgba(255,255,255,.4);
-	transition: outline .5s;
+	-webkit-transition: outline .5s ease-out;
+    -moz-transition: outline .5s ease-out;
+    -ms-transition: outline .5s ease-out;
+    -o-transition: outline .5s ease-out;
+    transition: outline .5s ease-out;
     z-index: 3000 !important; /* outline */
 }
-
 .tile > a {
 	width: inherit;
 	height: inherit;
 	display: block;
 	color: #fff;
 	text-decoration: none !important;
-	border:none;
 }
 .active {
     outline-color: rgba(255,255,255,.4);
-	transition: outline .5s;
+	-webkit-transition: outline .5s ease-out;
+    -moz-transition: outline .5s ease-out;
+    -ms-transition: outline .5s ease-out;
+    -o-transition: outline .5s ease-out;
+    transition: outline .5s ease-out;
     z-index: 3000 !important;
 }
 .blue { 
