@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(//fonts.googleapis.com/css?family=Roboto);
 
 html {
 	background: #000 url(pics/wallpaper.jpg) no-repeat fixed center center;
@@ -47,19 +47,11 @@ h1 {
 	text-align: center;
 	float: left;
 	outline: 7px solid rgba(255,255,255,0);
-	-webkit-transition: outline .5s ease-out;
-    -moz-transition: outline .5s ease-out;
-    -ms-transition: outline .5s ease-out;
-    -o-transition: outline .5s ease-out;
     transition: outline .5s ease-out;
     position: relative; /* outline */
 }
 .tile:hover {
 	outline-color: rgba(255,255,255,.4);
-	-webkit-transition: outline .5s ease-out;
-    -moz-transition: outline .5s ease-out;
-    -ms-transition: outline .5s ease-out;
-    -o-transition: outline .5s ease-out;
     transition: outline .5s ease-out;
     z-index: 3000 !important; /* outline */
 }
@@ -72,10 +64,6 @@ h1 {
 }
 .active {
     outline-color: rgba(255,255,255,.4);
-	-webkit-transition: outline .5s ease-out;
-    -moz-transition: outline .5s ease-out;
-    -ms-transition: outline .5s ease-out;
-    -o-transition: outline .5s ease-out;
     transition: outline .5s ease-out;
     z-index: 3000 !important;
 }
