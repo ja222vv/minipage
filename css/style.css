@@ -44,13 +44,33 @@ h1 {
 	background: rgba(0,0,0,.5);
 	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4c000000', endColorstr='#4c000000');
 }
-.header {
+.headerblue {
     margin-left:auto;
 	margin-right:auto;
-	border-bottom: solid 5px #00c0e4 ;
+	border-bottom: solid 5px #00c0e4;
 }
-.header h1 {
-    margin-bottom: 10px;
+.headermint {
+    margin-left:auto;
+	margin-right:auto;
+	border-bottom: solid 5px #2ecc71;
+}
+.headerpurple {
+    margin-left:auto;
+	margin-right:auto;
+	border-bottom: solid 5px #7658f8;
+}
+.headeryellow {
+    margin-left:auto;
+	margin-right:auto;
+	border-bottom: solid 5px #eac14d;
+}
+.headerred {
+    margin-left:auto;
+	margin-right:auto;
+	border-bottom: solid 5px #e6567a;
+}
+.headerblue h1, .headermint h1, .headerpurple h1, .headeryellow h1, .headerred h1 {
+    margin-bottom: 5px;
 }
 .subcontent {
     min-height: 470px;
@@ -79,13 +99,18 @@ h1 {
     background-color: #00c0e4; 
     margin-left:200px;
 }
-.mint { background-color: #2ecc71; }
-.purple { background-color: #7658f8; }
-
-.yellow { background-color: #eac14d; }
-.red { background-color: #e6567a; }
-.pink { background-color: #cb70d7; }
-
+.mint { 
+    background-color: #2ecc71; 
+}
+.purple { 
+    background-color: #7658f8; 
+}
+.yellow { 
+    background-color: #eac14d; 
+}
+.red { 
+    background-color: #e6567a; 
+}
 .icon {
 	max-width:40px;
     max-height:40px;
