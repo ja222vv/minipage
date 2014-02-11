@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Roboto);
+@import url(//fonts.googleapis.com/css?family=Roboto:400,300);
 
 /* 
 outline: 7px solid rgba(255,255,255,0);
@@ -8,12 +8,13 @@ position: relative; /* outline */
 html {
 	background: #000 url(pics/wallpaper.jpg) no-repeat fixed center center;
 	background-size: cover;
+	overflow-y: scroll;
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
-	font-size: 14px;
+	font-size: 16px;
 	text-shadow: 1px 1px 15px #111;
 }
 img {
@@ -23,26 +24,13 @@ h1 {
   color: #eee;
   font-weight:normal;
 }
+/* Menyn börjar */
 .menu {
     width: 800px;
     height: 80px;
     margin-top:20px;
     margin-left:auto;
 	margin-right:auto;
-}
-.container {
-    padding: 1em 3em;
-	width: 800px;
-	min-height: 600px;
-	margin-top:20px;
-	margin-left:auto;
-	margin-right:auto;
-	box-shadow: 0 0 10px rgba(0,0,0,.6);
-	border-radius: 2px;
-	border: 1px solid #000000;
-	border: 1px solid rgba(0,0,0,.3);
-	background: rgba(0,0,0,.5);
-	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4c000000', endColorstr='#4c000000');
 }
 .headerblue {
     margin-left:auto;
@@ -71,16 +59,6 @@ h1 {
 }
 .headerblue h1, .headermint h1, .headerpurple h1, .headeryellow h1, .headerred h1 {
     margin-bottom: 5px;
-}
-.subcontent {
-    min-height: 470px;
-}
-.nostyle {
-    list-style:none;
-}
-.footer {
-    font-size: 14px;
-    text-align:center;
 }
 .tile {
     width: 80px;
@@ -125,6 +103,34 @@ h1 {
 .title {
 	display: block;
 }
+/* Menyn slutar */
+/* Innehåll börjar*/
+.container {
+    padding: 1em 3em;
+	width: 900px;
+	min-height: 600px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.6);
+	border-radius: 2px;
+	border: 1px solid #000000;
+	border: 1px solid rgba(0,0,0,.3);
+	background: rgba(0,0,0,.5);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4c000000', endColorstr='#4c000000');
+}
+.subcontent {
+    min-height: 470px;
+}
+.nostyle {
+    list-style:none;
+}
+.footer {
+    font-size: 14px;
+    text-align:center;
+}
+/* Innehåll slutar*/
+
 
 * {
 	-webkit-touch-callout: none;
